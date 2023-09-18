@@ -2,13 +2,14 @@
 // Create a data structure that describes a "hospital". It has a name and contains 3 "patient" records. 
 //Each "patient" has an id, fullName, dateOfBirth, and multiple "symptoms". Each symptom in a String. 
 
+//creat a data structure for "Hospital" and defined it as Hospital.
 
 const Hospital = {
 	hospitalName: "Oakville Hospital",
 	patients: [
 	  {
 		id: "P001",
-		fullName: "Elon Musk",
+		fullName: "Emily Johnson",
 		dateOfBirth: "1971-06-28",
 		symptoms: [
 		  {description: "Fever"},
@@ -18,7 +19,7 @@ const Hospital = {
 	  },
 	  {
 		id: "P002",
-		fullName: "Jeff Bezosn",
+		fullName: "Brian Scott",
 		dateOfBirth: "1964-01-22",
 		symptoms: [
 		  {description: "Headache"},
@@ -28,7 +29,7 @@ const Hospital = {
 	  },
 	  {
 		id: "P003",
-		fullName: "Bill Gates",
+		fullName: "Kevin Lewis",
 		dateOfBirth: "1955-10-28",
 		symptoms: [
 		  {description: "Chest Pain"},
@@ -39,12 +40,6 @@ const Hospital = {
 	]
   }
 
-//console.log(Hospital.patients[2].fullName)
-//console.log(Hospital.hospitalName);
-//console.log(Hospital.patients[1].symptoms[2].description)
-//console.log(Hospital.hospitalName)
-//console.log(Hospital.patients.length)
-//console.log(Hospital.patients[1].fullName + Hospital.patients[1].dateOfBirth)
 
 // Part 2:
 // Create a function named "showPatients" that receives a hospital data structure and returns the following as a string:
@@ -60,7 +55,8 @@ const Hospital = {
 
 // Execute that function with the data structure created in Part 1 then console.log the return value to the document.
 
-function showMe(){
+// Creata a function receives a hospital data and returns:
+function showPatients(){
 	let showHtml = "<h1>" + Hospital.hospitalName + "</h1>";
 
 	for (let i = 0; i < Hospital.patients.length; i++) {
@@ -79,7 +75,7 @@ function showMe(){
 	return showHtml;
 }
 
-console.log(showMe());
+console.log(showPatients());
 
 
 //Part 3:
