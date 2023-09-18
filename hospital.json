@@ -3,8 +3,8 @@
   "patients": [
     {
       "id": "P001",
-      "fullName": "John Smith",
-      "dateOfBirth": "1995-06-15",
+      "fullName": "Emily Johnson",
+      "dateOfBirth": "1971-06-28",
       "symptoms": [
         {"description": "Fever"},
         {"description": "Cough"},
@@ -13,8 +13,8 @@
     },
     {
       "id": "P002",
-      "fullName": "Tom Johnson",
-      "dateOfBirth": "1992-11-21",
+      "fullName": "Brian Scott",
+      "dateOfBirth": "1964-01-22",
       "symptoms": [
         {"description": "Headache"},
         {"description": "Sneeze"},
@@ -23,8 +23,8 @@
     },
     {
       "id": "P003",
-      "fullName": " Tim Allen",
-      "dateOfBirth": "1999-02-24",
+      "fullName": " Kevin Lewis",
+      "dateOfBirth": "1955-10-28",
       "symptoms": [
         {"description": "Chest Pain"},
         {"description": "Cough"},
