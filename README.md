@@ -1,4 +1,4 @@
-A1 Programming basics
+<h1>A1 Programming basics</h1>
 
 Instructions
 Start a new git project. Make sure to commit and sync your changes after every requirement is complete, The commit message should contain the requirement(s) that was addressed in that commit.
