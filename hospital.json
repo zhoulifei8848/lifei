@@ -1,0 +1,35 @@
+{
+  "hospital": "Oakville Hospital",
+  "patients": [
+    {
+      "id": "P001",
+      "fullName": "John Smith",
+      "dateOfBirth": "1995-06-15",
+      "symptoms": [
+        {"description": "Fever"},
+        {"description": "Cough"},
+        {"description": "Shortness of Breath"}
+      ]
+    },
+    {
+      "id": "P002",
+      "fullName": "Tom Johnson",
+      "dateOfBirth": "1992-11-21",
+      "symptoms": [
+        {"description": "Headache"},
+        {"description": "Sneeze"},
+        {"description": "Dizziness"}
+      ]
+    },
+    {
+      "id": "P003",
+      "fullName": " Tim Allen",
+      "dateOfBirth": "1999-02-24",
+      "symptoms": [
+        {"description": "Chest Pain"},
+        {"description": "Cough"},
+        {"description": "Heartbeat"}
+      ]
+    }
+  ]
+}
